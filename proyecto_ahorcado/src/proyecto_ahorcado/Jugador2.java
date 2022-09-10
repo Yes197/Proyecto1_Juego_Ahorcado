@@ -1,7 +1,6 @@
 package proyecto_ahorcado;
 
 import java.util.ArrayList;
-import antlr.collections.List;
 import jadex.bdiv3.annotation.Belief;
 import jadex.bdiv3.features.IBDIAgentFeature;
 import jadex.micro.annotation.Agent;
