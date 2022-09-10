@@ -2,6 +2,8 @@ package proyecto_ahorcado;
 
 
 import java.util.ArrayList;
+import java.util.Collections;
+
 import jadex.bdiv3.annotation.Belief;
 import jadex.bdiv3.features.IBDIAgentFeature;
 import jadex.micro.annotation.Agent;
@@ -18,7 +20,7 @@ public class Jugador1 {
 	@AgentCreated
 	
 	@Belief
-	public void PalabrasEspanhol()
+	public static void Palabra()
 	{
 	  ArrayList<String> PalabrasEspanhol = new ArrayList<String>();
 	  PalabrasEspanhol.add("ceviche");
@@ -28,8 +30,11 @@ public class Jugador1 {
 	  PalabrasEspanhol.add("mazamorra");
 	  PalabrasEspanhol.add("juane");
 	  PalabrasEspanhol.add("sancochado");
+	  
+	  Collections.shuffle(PalabrasEspanhol);
+	  
+	  String PalabraEscogida = PalabrasEspanhol.get(1);
 	}
 	
-	
-	
+
 }

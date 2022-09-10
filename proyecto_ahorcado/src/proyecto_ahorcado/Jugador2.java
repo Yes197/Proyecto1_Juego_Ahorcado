@@ -16,6 +16,7 @@ public class Jugador2 {
 	
 	@AgentCreated
 	
+	
 	@Belief
 	public void PalabrasEspanhol()
 	{
@@ -29,6 +30,7 @@ public class Jugador2 {
 	  PalabrasEspanhol.add("sancochado");
 	}
 	
+
 	
 	
 }
