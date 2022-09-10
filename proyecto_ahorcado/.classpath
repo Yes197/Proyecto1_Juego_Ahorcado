@@ -1,0 +1,7 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<classpath>
+	<classpathentry kind="src" path=""/>
+	<classpathentry kind="lib" path="D:/eclipse/jadex-3.0.98/lib/jadex-kernel-micro-3.0.98.jar"/>
+	<classpathentry kind="lib" path="D:/eclipse/jadex-3.0.98/lib/jadex-applications-micro-3.0.98.jar" sourcepath="D:/eclipse/jadex-3.0.98/sources.zip"/>
+	<classpathentry kind="output" path="bin"/>
+</classpath>
