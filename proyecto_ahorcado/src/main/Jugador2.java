@@ -15,25 +15,13 @@ import jadex.micro.examples.ping.IEchoService;
 @Agent
 @ProvidedServices(@ProvidedService(type=IEchoService.class,
 implementation=@Implementation(expression="$pojoagent")))
-public class Jugador2 {
+public class Jugador2<IBDIAgentFeature> {
 	@AgentFeature
 	protected IBDIAgentFeature bdifeature;
 	
-	@AgentCreated
+
 	
-	@Belief
-	public void PalabrasEspanhol()
-	{
-	  ArrayList<String> PalabrasEspanhol = new ArrayList<String>();
-	  PalabrasEspanhol.add("ceviche");
-	  PalabrasEspanhol.add("chanfainita");
-	  PalabrasEspanhol.add("pachamanca");
-	  PalabrasEspanhol.add("mondonguito");
-	  PalabrasEspanhol.add("mazamorra");
-	  PalabrasEspanhol.add("juane");
-	  PalabrasEspanhol.add("sancochado");
-	}
-	
+
 	
 	
 }
